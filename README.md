@@ -19,6 +19,9 @@ Paquete que integra la pila de Navegación 2 (Nav2) con capacidades de Localizac
 ### Script modificación
 Script para generar variaciones aleatorias de archivos prefab modificando las posiciones de objetos. Diseñado específicamente para alterar coordenadas X e Y de elementos en prefabs de O3DE, permitiendo crear múltiples variaciones para simulaciones o entrenamiento.
 
+### yasmin_waypoint_nav
+Paquete que implementa navegación por waypoints utilizando una máquina de estados YASMIN. Proporciona una navegación robusta y estructurada donde el robot visita automáticamente una lista de puntos predefinidos, con manejo inteligente de errores y estados claramente definidos para cada fase del proceso de navegación.
+
 ## Requisitos del Sistema
 
 - ROS 2 (preferiblemente Humble)

@@ -21,7 +21,7 @@ Reimplementación del script `waypoints_navigation.py` usando YASMIN para una na
 1. Compila el paquete:
 ```bash
 cd /home/user/tfm_ws
-colcon build --packages-select yasmin_waypoint_nav
+colcon build 
 source install/setup.bash
 ```
 
