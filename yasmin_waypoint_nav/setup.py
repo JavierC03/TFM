@@ -5,7 +5,7 @@ package_name = 'yasmin_waypoint_nav'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=find_packages(exclude=['test']),
+    packages=find_packages(),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -18,7 +18,6 @@ setup(
     maintainer_email='user@todo.todo',
     description='Waypoint navigation using YASMIN state machine',
     license='TODO: License declaration',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'yasmin_waypoint_navigator = yasmin_waypoint_nav.yasmin_waypoint_navigator:main',
